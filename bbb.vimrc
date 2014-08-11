@@ -1,6 +1,7 @@
 "set compatible
 syntax on
 set nobackup
+set noundofile
 set ruler
 set history=100
 set ignorecase
