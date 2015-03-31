@@ -7,6 +7,8 @@ set history=100
 set ignorecase
 set smartcase
 set showcmd
+set modeline
+set modelines=5
 set mouse=
 set noautoindent
 set nocindent
