@@ -15,4 +15,5 @@ set nocindent
 set nosmartindent
 set indentexpr=
 filetype indent off
+colorscheme desert
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
