@@ -18,3 +18,4 @@ set visualbell
 filetype indent off
 colorscheme desert
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+autocmd BufNewFile,BufRead Jenkinsfile set syntax=groovy
