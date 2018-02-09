@@ -16,6 +16,7 @@ set nosmartindent
 set indentexpr=
 set visualbell
 filetype indent off
+set t_Co=256
 colorscheme desert
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 autocmd BufNewFile,BufRead Jenkinsfile set syntax=groovy
