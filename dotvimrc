@@ -20,3 +20,4 @@ colorscheme wombat256
 filetype indent off
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 autocmd BufNewFile,BufRead Jenkinsfile set syntax=groovy
+autocmd BufNewFile,BufRead *.gradle set syntax=groovy
