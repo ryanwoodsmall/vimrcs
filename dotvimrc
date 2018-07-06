@@ -30,4 +30,8 @@ if has('autocmd')
   autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
   autocmd BufNewFile,BufRead Jenkinsfile* set syntax=groovy
   autocmd BufNewFile,BufRead *.gradle set syntax=groovy
+  " http://vim.wikia.com/wiki/Fix_syntax_highlighting
+  if has('syntax')
+    autocmd BufEnter * :syntax sync fromstart
+  end
 end
