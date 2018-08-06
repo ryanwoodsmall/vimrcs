@@ -18,6 +18,8 @@ set visualbell
 "set colorcolumn=80
 if has('syntax')
   syntax on
+  " this doesn't work - unconditionally sets colorscheme to wombat256
+  " need a way to detect terminal color count/depth?
   try
     set t_Co=256
     colorscheme wombat256
