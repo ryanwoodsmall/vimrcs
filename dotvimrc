@@ -15,6 +15,7 @@ set nocindent
 set nosmartindent
 set indentexpr=
 set visualbell
+set laststatus=2
 "set number
 "set colorcolumn=80
 if has('syntax')
