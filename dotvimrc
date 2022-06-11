@@ -48,3 +48,10 @@ end
 :hi cursorline ctermbg=none
 :hi cursorlinenr ctermfg=black
 :hi cursorlinenr ctermbg=yellow
+" via: https://vim.fandom.com/wiki/Display_line_numbers
+"  ctrl-n/ctrl-n turn off numbers in normal mode, swap from 0 to #lineno in relative mode
+"  ctrl-number
+:nmap <C-N><C-N> :set invnumber<CR>
+:nmap <C-N><C-R> :set invrelativenumber<CR>
+:nmap <C-N><C-T> :set number<CR>\|:set norelativenumber<CR>
+" menu: https://vim.fandom.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
