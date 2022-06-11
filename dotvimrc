@@ -41,3 +41,10 @@ if has('autocmd')
     autocmd BufEnter * :syntax sync fromstart
   end
 end
+:set number
+:set cursorline
+:hi cursorline cterm=none
+:hi cursorline ctermfg=none
+:hi cursorline ctermbg=none
+:hi cursorlinenr ctermfg=black
+:hi cursorlinenr ctermbg=yellow
