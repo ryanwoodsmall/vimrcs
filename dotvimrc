@@ -9,7 +9,7 @@ set showcmd
 set modeline
 set modelines=5
 set mouse=
-et ttymouse=
+set ttymouse=
 set noautoindent
 set nocindent
 set nosmartindent
