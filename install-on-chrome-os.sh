@@ -26,7 +26,7 @@ for i in dotvim{,rc} ; do
       test -e "${target}.PRE-${TS}" || break
       TS="$(gettimestamp)"
     done
-    echo mv "${target}" "${target}.PRE-${TS}"
+    mv "${target}" "${target}.PRE-${TS}"
   fi
-  echo cp -pr "${source}" "${target}" # cpio/tar/...
-done | eval
+  cp -pr "${source}" "${target}" # cpio/tar/...
+done
