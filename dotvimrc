@@ -58,3 +58,7 @@ end
 ":nmap <C-N><C-H> :set cursorcolumn!<CR>\|:set cursorline!<CR>
 " menu: https://vim.fandom.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
 " tabs: https://stackoverflow.com/questions/17326627/vims-open-does-not-tab-complete-what-does
+" term: https://stackoverflow.com/questions/26411645/how-to-open-a-terminal-in-new-tab-from-vim
+" splits...
+:set splitbelow
+:set splitright
