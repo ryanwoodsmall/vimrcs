@@ -54,6 +54,8 @@ end
 :nmap <C-N><C-N> :set invnumber<CR>
 :nmap <C-N><C-R> :set invrelativenumber<CR>
 :nmap <C-N><C-T> :set number<CR>\|:set norelativenumber<CR>
+" turn off F1 help
+:nmap <F1> <nop>
 " XXX - would need to save/reset state here, not savvy enough in vim lang
 ":nmap <C-N><C-H> :set cursorcolumn!<CR>\|:set cursorline!<CR>
 " menu: https://vim.fandom.com/wiki/Make_Vim_completion_popup_menu_work_just_like_in_an_IDE
