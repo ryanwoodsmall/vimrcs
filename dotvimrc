@@ -64,3 +64,6 @@ end
 " splits...
 :set splitbelow
 :set splitright
+" backspace anywhere in insert mode
+" from https://github.com/tpope/vim-sensible
+set backspace=indent,eol,start
